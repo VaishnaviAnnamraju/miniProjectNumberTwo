@@ -13,6 +13,10 @@
 		A853197A2685B2F4005BB320 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85319782685B2F4005BB320 /* Main.storyboard */; };
 		A853197C2685B2F5005BB320 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A853197B2685B2F5005BB320 /* Assets.xcassets */; };
 		A853197F2685B2F5005BB320 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A853197D2685B2F5005BB320 /* LaunchScreen.storyboard */; };
+		A853198726864692005BB320 /* favoriteDisneyMoviePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853198626864692005BB320 /* favoriteDisneyMoviePage.swift */; };
+		A853198926866A49005BB320 /* favoriteEmojiPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853198826866A49005BB320 /* favoriteEmojiPage.swift */; };
+		A853198B2686B364005BB320 /* summerSportPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853198A2686B364005BB320 /* summerSportPage.swift */; };
+		A853198D2686B6DE005BB320 /* summerVacationSpotPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A853198C2686B6DE005BB320 /* summerVacationSpotPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A853197B2685B2F5005BB320 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A853197E2685B2F5005BB320 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A85319802685B2F5005BB320 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A853198626864692005BB320 /* favoriteDisneyMoviePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteDisneyMoviePage.swift; sourceTree = "<group>"; };
+		A853198826866A49005BB320 /* favoriteEmojiPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favoriteEmojiPage.swift; sourceTree = "<group>"; };
+		A853198A2686B364005BB320 /* summerSportPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summerSportPage.swift; sourceTree = "<group>"; };
+		A853198C2686B6DE005BB320 /* summerVacationSpotPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summerVacationSpotPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +48,9 @@
 		A85319662685B2F4005BB320 = {
 			isa = PBXGroup;
 			children = (
+				A853198C2686B6DE005BB320 /* summerVacationSpotPage.swift */,
+				A853198A2686B364005BB320 /* summerSportPage.swift */,
+				A853198626864692005BB320 /* favoriteDisneyMoviePage.swift */,
 				A85319712685B2F4005BB320 /* miniProjectNumberTwo */,
 				A85319702685B2F4005BB320 /* Products */,
 			);
@@ -60,6 +71,7 @@
 				A85319742685B2F4005BB320 /* SceneDelegate.swift */,
 				A85319762685B2F4005BB320 /* ViewController.swift */,
 				A85319782685B2F4005BB320 /* Main.storyboard */,
+				A853198826866A49005BB320 /* favoriteEmojiPage.swift */,
 				A853197B2685B2F5005BB320 /* Assets.xcassets */,
 				A853197D2685B2F5005BB320 /* LaunchScreen.storyboard */,
 				A85319802685B2F5005BB320 /* Info.plist */,
@@ -137,7 +149,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A853198926866A49005BB320 /* favoriteEmojiPage.swift in Sources */,
 				A85319772685B2F4005BB320 /* ViewController.swift in Sources */,
+				A853198D2686B6DE005BB320 /* summerVacationSpotPage.swift in Sources */,
+				A853198B2686B364005BB320 /* summerSportPage.swift in Sources */,
+				A853198726864692005BB320 /* favoriteDisneyMoviePage.swift in Sources */,
 				A85319732685B2F4005BB320 /* AppDelegate.swift in Sources */,
 				A85319752685B2F4005BB320 /* SceneDelegate.swift in Sources */,
 			);
